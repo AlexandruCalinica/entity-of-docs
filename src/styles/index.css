@@ -409,3 +409,23 @@ h2.heading {
 .current-header-link a {
 	color: var(--theme-text);
 }
+
+.hot-link-group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+  border-radius: 0.5rem;
+}
+
+.hot-link {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  font-size: larger;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--theme-divider);
+  background-color: var(--theme-bg-accent);
+}

@@ -11,7 +11,7 @@ export const OPEN_GRAPH = {
       "astro logo on a starry expanse of space," +
       " with a purple saturn-like planet floating in the right foreground",
   },
-  twitter: "astrodotbuild",
+  twitter: "",
 };
 
 export const KNOWN_LANGUAGES = {
@@ -19,15 +19,15 @@ export const KNOWN_LANGUAGES = {
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
-export const GITHUB_EDIT_URL = `https://github.com/withastro/astro/tree/main/examples/docs`;
+export const GITHUB_EDIT_URL = `https://github.com/AlexandruCalinica/entity-of-docs`;
 
 export const COMMUNITY_INVITE_URL = `https://astro.build/chat`;
 
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {
-  indexName: "XXXXXXXXXX",
-  appId: "XXXXXXXXXX",
-  apiKey: "XXXXXXXXXX",
+  indexName: "XXXXXX",
+  appId: "XXXXXXX",
+  apiKey: "XXXXXXXX",
 };
 
 export type Sidebar = Record<
@@ -46,6 +46,6 @@ export const SIDEBAR: Sidebar = {
       { text: "Concept & Philosophy", link: "en/philosophy" },
       { text: "Contribution guide", link: "en/contribute" },
     ],
-    API: [{ text: "Page 4", link: "en/page-4" }],
+    // API: [{ text: "Page 4", link: "en/page-4" }],
   },
 };

@@ -1,0 +1,13 @@
+.version-select-wrapper {
+  position: relative;
+  display: flex;
+  height: 100%;
+  align-items: baseline;
+}
+.version-select {
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  font-size: medium;
+  font-weight: 600;
+}

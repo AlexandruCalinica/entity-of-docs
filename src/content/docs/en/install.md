@@ -2,33 +2,26 @@
 title: "Install"
 description: "How to install Entity.of"
 ---
-### Prerequisites
-
-Entity.of is framework agnostic, meaning that it should work with any typescript project that has support for **experimentalDecorators** enabled.
-
+## Prerequisites
+Entity.of is framework agnostic, meaning that it should work with any typescript project that has support for experimentalDecorators enabled.
 - Typescript codebase
 - experimentalDecorator support enabled for the typescript compiler
----
 
-### Add library to your project
+## Install
 via `npm`
-```bash
+```sh
 npm install entity-of
 ```
-
 via `yarn`
-```bash
+```sh
 yarn add entity-of
 ```
-
-### Setup tsconfig.json
-
-Inside your `tsconfig.json` file, make sure that you have the following option enabled:
-
+## Setup tsconfig.json
+Open your project's `tsconfig.json` and add the following line in the `compiler` section:
 ```json
 {
-  "compilerOptions": {
-    "experimentalDecorators": true
+  "compiler": {
+    "experimentalDecorators": true   
   }
 }
 ```
